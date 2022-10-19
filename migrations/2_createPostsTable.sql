@@ -9,5 +9,5 @@ CREATE TABLE posts(
     date DATE,
     PRIMARY KEY(id),
 
-FOREIGN KEY(user_id) REFERENCES users(id)
+    FOREIGN KEY(user_id) REFERENCES users(id)
 );
